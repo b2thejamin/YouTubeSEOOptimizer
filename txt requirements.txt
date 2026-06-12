@@ -1,0 +1,21 @@
+# YouTube SEO Optimizer - Requirements File
+# Rule-Based AI Assignment - Pure Python Implementation
+#
+# This project uses ONLY Python standard libraries and has NO external dependencies.
+# No pip installation is required to run this application.
+#
+# Minimum Python Version: Python 3.6+
+# Recommended: Python 3.8 or higher
+#
+# Standard libraries used (built-in, no installation needed):
+# - No external packages required
+#
+# To verify your Python version, run:
+#   python --version
+#
+# To run the application:
+#   python YouTubeSEOOptimizer.py
+#
+# This project intentionally avoids machine learning libraries and external dependencies
+# to demonstrate pure rule-based AI logic using only conditionals, dictionaries,
+# and string operations as per assignment requirements.

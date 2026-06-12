@@ -1,0 +1,152 @@
+﻿Part 1: Project Ideas
+
+Initial Project Concepts:
+
+During the brainstorming phase, I considered three different rule-based AI project ideas:
+
+1.  Game Recommendation System
+
+A system that recommends video games based on user preferences such as genre, platform, playstyle, and difficulty level using conditional logic and keyword matching.
+
+2.  Streamer Troubleshooting Assistant
+
+An interactive assistant to help streamers diagnose and resolve common technical issues with OBS, microphones, lag, and streaming platforms using decision-tree style rules.
+
+3.  YouTube SEO Optimizer (Selected Project)
+
+A tool that optimizes YouTube video metadata including titles, tags, and descriptions based on content category and user input using rule-based logic.
+
+Justification for Chosen Project:
+
+I selected the YouTube SEO Optimizer because it directly aligns with my personal interests and current projects. 
+I actively manage multiple YouTube Shorts channels (including gaming clips) where effective SEO is crucial for visibility and growth. 
+Additionally, I am developing VODForge, an AI-powered clipping and posting service for streamers. 
+This tool is highly practical and something I can continue using after the assignment.
+
+Part 2: Rules and Logic
+
+The YouTube SEO Optimizer is a pure rule-based system that applies predefined SEO strategies based on video categories. 
+The system uses if-elif-else conditionals, dictionary lookups, and string manipulation.
+
+Core Rules:
+•  Category Detection: Matches user input to known categories (gaming, streaming, tech, fitness, general) with fallback logic.
+•  Title Optimization: Adds power words if missing, appends category hooks, and enforces ~70 character limit.
+•  Tag Generation: Expands base title with category-specific boosters + general high-value tags (max 30 unique tags).
+•  Description Starter: Generates intro text, timestamps, CTA, and hashtags.
+•  Fallback: Handles empty or unclear inputs gracefully.
+
+
+Part 3: Results of Three Inputs
+
+Test 1:
+Category: gaming
+Base Title: Funny Moments in Minecraft
+Output:
+•  Recommended Title: INSANE Funny Moments In Mineraft
+•  Suggested Tags: gaming | funny | moments
+   mineraft | gameplay | walkthrough
+   tutorial | guide | tips
+   tricks | best moments | highlights
+   epic | funny moments | pro player
+   strategy | build | meta
+   update | patch | review
+   let's play | stream highlights | compilation
+•  Description Starter: Welcome to this amazing gaming video! In this episode, we dive deep into INSANE Funny Moments In Mineraft - Gameplay.
+
+   ⏱️ TIMESTAMPS:
+   0:00 - Introduction
+   0:30 - Main Content
+   5:00 - Key Points
+   8:00 - Conclusion
+
+   🔗 CONNECT WITH US:
+   • Subscribe: [Your Channel Link]
+   • Instagram: [Your Instagram]
+   • Twitter: [Your Twitter]
+   • Discord: [Your Discord]
+
+   📌 HASHTAGS:
+   #Gaming #Gameplay #GamingCommunity #VideoGames
+
+   💬 Don't forget to LIKE, SUBSCRIBE, and hit the BELL for more gaming content!
+
+Test 2:
+Category: streaming
+Base Title: Funny Moments From my Last Stream
+Output:
+•  Recommended Title: LIVE Funny Moments From My Last Stream
+•  Suggested Tags: streaming | funny | moments
+   from | last | stream
+   live | twitch | highlights
+   best moments | clips | reaction
+   chat | donation | subscriber
+   emotes | streamer | gaming stream
+   irl stream | talk show | q&a
+   community | subscriber special | charity stream
+•  Description Starter: Check out these incredible moments from the stream! Today we LIVE Funny Moments From My Last Stream.
+
+   ⏱️ TIMESTAMPS:
+   0:00 - Introduction
+   0:30 - Main Content
+   5:00 - Key Points
+   8:00 - Conclusion
+
+   🔗 CONNECT WITH US:
+   • Subscribe: [Your Channel Link]
+   • Instagram: [Your Instagram]
+   • Twitter: [Your Twitter]
+   • Discord: [Your Discord]
+
+   📌 HASHTAGS:
+   #Stream #Streaming #LiveStream #StreamHighlights
+
+   💬 Follow the stream and join the community! Like and subscribe for daily highlights!
+
+Test 3:
+Category: Tech
+Base Title: Reviewing The New Iphone
+Output:
+•  Recommended Title: Reviewing The New Iphone
+•  Suggested Tags: tech | reviewing | the
+   new | iphone | technology
+   review | unboxing | tutorial
+   guide | comparison | vs
+   specs | features | hands-on
+   first look | analysis | benchmark
+   performance | setup | tips
+   tricks | how to | explained
+   worth it | buy or skip | latest
+•  Description Starter:  In this tech video, we take a comprehensive look at Reviewing The New Iphone.
+
+   ⏱️ TIMESTAMPS:
+   0:00 - Introduction
+   0:30 - Main Content
+   5:00 - Key Points
+   8:00 - Conclusion
+
+   🔗 CONNECT WITH US:
+   • Subscribe: [Your Channel Link]
+   • Instagram: [Your Instagram]
+   • Twitter: [Your Twitter]
+   • Discord: [Your Discord]
+
+   📌 HASHTAGS:
+   #Tech #Technology #TechReview #Gadgets
+
+   💬 Subscribe for more tech reviews and tutorials! Drop your questions in the comments!
+
+Part 4: Reflection
+
+My rule-based YouTube SEO Optimizer takes a video category and base title as input, then applies a series of heuristics and -
+predefined rules to output an optimized title, relevant tags, and a description starter. 
+The entire system relies on if-elif conditionals, dictionary lookups for category boosters, and string operations — 
+no machine learning is used at all.
+I chose this project because it connects directly to my YouTube Shorts work and VODForge development. 
+While collaborating with the AI (including GitHub Copilot) to design and code the system, the main challenges were - 
+keeping the implementation strictly rule-based while making the outputs actually useful and professional. 
+Early versions produced generic results, so I had to iterate multiple times on prompts to refine power-word logic, character limits, category-specific boosters, and output formatting. 
+Handling edge cases like empty inputs and unknown categories also required extra refinement.
+This assignment gave me a much better understanding of how AI systems worked before machine learning became dominant. 
+Rule-based systems are very transparent, easy to debug, and don’t require large datasets, but they can be brittle if the rules don’t cover a particular input. 
+Overall, it was a valuable learning experience that reinforced the importance of clear logic and iterative development. 
+I’m excited to keep improving this tool for my own content creation workflow.
