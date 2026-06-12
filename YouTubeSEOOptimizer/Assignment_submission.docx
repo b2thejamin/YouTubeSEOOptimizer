@@ -5,15 +5,12 @@ Initial Project Concepts:
 During the brainstorming phase, I considered three different rule-based AI project ideas:
 
 1.  Game Recommendation System
-
 A system that recommends video games based on user preferences such as genre, platform, playstyle, and difficulty level using conditional logic and keyword matching.
 
 2.  Streamer Troubleshooting Assistant
-
 An interactive assistant to help streamers diagnose and resolve common technical issues with OBS, microphones, lag, and streaming platforms using decision-tree style rules.
 
 3.  YouTube SEO Optimizer (Selected Project)
-
 A tool that optimizes YouTube video metadata including titles, tags, and descriptions based on content category and user input using rule-based logic.
 
 Justification for Chosen Project:
